@@ -1,5 +1,5 @@
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0E4C92&height=300&section=header&text=Wooritto&fontSize=70&fontColor=FFFFFF&animation=fadeIn&width=1200" width="1200" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ed9824&height=300&section=header&text=Wooritto&fontSize=70&fontColor=FFFFFF&animation=fadeIn&width=1200" width="1200" />
 
 
 ## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> Ditto </div>
@@ -95,4 +95,4 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0E4C92&height=150&section=footer" width="1000" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ed9824&height=150&section=footer" width="1000" />
