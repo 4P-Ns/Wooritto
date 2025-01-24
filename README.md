@@ -12,9 +12,8 @@
 - [1️⃣ Overview](#1%EF%B8%8F⃣-overview)
 - [2️⃣ Contributors](#2%EF%B8%8F⃣-contributors)
 - [3️⃣ Environment Settings](#3%EF%B8%8F⃣-environment-settings)
-- [4️⃣ ERD](#4%EF%B8%8F⃣-erd)
-- [5️⃣ Trouble Shooting](#5%EF%B8%8F⃣-trouble-shooting)
-- [6️⃣ Retrospective](#6%EF%B8%8F⃣-retrospective)
+- [4️⃣ Trouble Shooting](#5%EF%B8%8F⃣-trouble-shooting)
+- [5️⃣ Retrospective](#6%EF%B8%8F⃣-retrospective)
 
 
 <br>
@@ -81,14 +80,8 @@
 
 <br>
 
-## 4️⃣ ERD
 
-### Elasticsearch
-
-
-<br>
-
-## 5️⃣ Trouble Shooting
+## 4️⃣ Trouble Shooting
 
 ### Window에서 ElasticSearch 접속이 안되는 문제
 - 설치 후, ubuntu에서는 curl -X GET 명령어를 통해 잘 되는 것을 확인 했지만 Window에서는 접속이 되지 않는 문제 발생
@@ -160,7 +153,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 
 <img src="https://github.com/user-attachments/assets/27d4facf-50ba-4a9b-aff9-8415ea5591ab" alt="image" width="600">
 
-## 6️⃣ Retrospective
+## 5️⃣ Retrospective
 
 
 
