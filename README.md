@@ -209,13 +209,18 @@ PermitRootLogin no
 
 <img src="https://github.com/user-attachments/assets/011013d3-bb1a-40a5-b4e7-130a84da96f0" width="60%">
 
+
 - NAT 네트워크 설정
 
 <img src="https://github.com/user-attachments/assets/16f35fbb-c193-4a16-95a9-bd4e533be27e" width="60%">
 
+
+
 - 서버 각각 포트포워딩 해주기
 
 <img src="https://github.com/user-attachments/assets/5b623e03-6580-4b66-b7f3-c6c892846312" width="60%">
+
+
 
 ### Ubuntu에 ElasticSearch 설치하기
 
@@ -238,6 +243,8 @@ sudo systemctl status elasticsearch
 $ sudo systemctl enable elasticsearch
 ```
 
+
+
 - elasticsearch.yml 파일 수정하기
 
 ```bash
@@ -255,6 +262,8 @@ discovery.seed_hosts: ["0.0.0.0"]
 
 <img src="https://github.com/user-attachments/assets/7826b525-4f43-47b5-b2cb-d291aed6f427" width="60%">
 
+
+
 - ES 재실행
 
 ```bash
@@ -267,6 +276,8 @@ sudo systemctl restart elasticsearch
 <img src="https://github.com/user-attachments/assets/d61177da-39d6-4572-a513-49b5ddadb33f" width="60%">
 
 <img src="https://github.com/user-attachments/assets/b5f419f6-e1b8-4a45-b9ae-ccaa5b986417" width="60%">
+
+
 
 ### Ubuntu에 Kibana 설치
 
@@ -303,11 +314,15 @@ server.host: 0.0.0.0
 elasticsearch.hosts: ["http://localhost:9200"]
 ```
 
+
+
 - 현재 다른 서버에 설치된 ES와 연동을 해야 하기 때문에 위의 elasticsearch.hosts의 ip를 elasticsearch가 있는 서버 ip로 해줘야 함
 
 <img src="https://github.com/user-attachments/assets/87ea59f9-9522-4f2f-92e6-12fc89b79b4a" width="60%">
 
 <img src="https://github.com/user-attachments/assets/d1fd3aa3-f033-4bd2-9996-491e3b4afc6c">
+
+
 
 - kibana 접속 확인
 
@@ -322,6 +337,7 @@ sudo systemctl status kibana
 - window에서 kibana 접속
 
 <img src="https://github.com/user-attachments/assets/5c470607-88a7-4fef-b00e-ab588177d5b2" width="60%">
+
 
 <br>
 
