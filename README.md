@@ -135,6 +135,125 @@
 
 ### 🛠 Configuration
 
+## Virtual Machine에서 ELK를 설치할 각각의 서버 생성
+
+<details>
+<summary>각 서버에서 SSH 가능하게 설정</summary>
+
+<img src="https://github.com/user-attachments/assets/700959c1-7bf6-40dc-8350-fb6c25756db1" width="60%">
+
+
+<img src="https://github.com/user-attachments/assets/b9a455da-1731-4d9d-bb5d-aac56f4b82f2" width="60%">
+
+
+- 기본 메모리 용량 늘려주기
+
+- ELK를 모두 실행하면 10GB가 조금 넘는 용량이 필요하다. 이 때문에 서버를 각각 둔 것
+
+- 각각 4GB정도로 설정
+
+<img src="https://github.com/user-attachments/assets/8caa04a7-dcc4-4705-951e-9867e75704d6" width="60%">
+
+
+- ssh 설치
+
+```bash
+
+sudo apt update
+
+# openssh 설치시 y옵션 자동 적용하면서 설치하는 명령어
+sudo apt install openssh-server -y
+
+sudo systemctl status ssh
+```
+
+  
+</details>
+
+<details>
+  <summary>SSH 접속 확인</summary>
+
+- 로컬 머신에서 SSH를 테스트하려면 자신의 IP 주소를 확인
+
+```bash
+ip addr
+```
+  
+</details>
+
+<details>
+  <summary>SSH 서버 설정 변경 (옵션)</summary>
+
+- SSH 설정 파일 :  `/etc/ssh/sshd_config`에 있습니다.
+- 필요 시 설정 파일을 편집
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+```
+# 기본 포트 변경
+Port 22
+
+# 루트 로그인 허용/비허용
+PermitRootLogin no
+
+```
+  
+</details>
+
+
+설정을 변경한 후 SSH 서비스 재시작
+
+### virtual box에서 서버들 같은 네트워크로 묶어주기
+
+<img src="https://github.com/user-attachments/assets/011013d3-bb1a-40a5-b4e7-130a84da96f0" width="60%">
+
+- NAT 네트워크 설정
+
+<img src="https://github.com/user-attachments/assets/16f35fbb-c193-4a16-95a9-bd4e533be27e" width="60%">
+
+- 서버 각각 포트포워딩 해주기
+
+<img src="https://github.com/user-attachments/assets/5b623e03-6580-4b66-b7f3-c6c892846312" width="60%">
+
+### Ubuntu에 ElasticSearch 설치하기
+
+```bash
+# Elasticsearch 7 버전 설치
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+sudo apt-add-repository "deb https://artifacts.elastic.co/packages/7.x/apt stable main"
+
+# Elasticsearch 설치
+sudo apt update
+sudo apt install elasticsearch
+
+# 시작
+sudo systemctl start elasticsearch
+
+# 상태 확인
+sudo systemctl status elasticsearch
+
+## 자동실행 설정(선택사항)
+$ sudo systemctl enable elasticsearch
+```
+
+- elasticsearch.yml 파일 수정하기
+
+```bash
+# elasticsearch.yml 파일 vim으로 열기
+sudo vi /etc/elasticsearch/elasticsearch.yml
+
+# yml 파일 수정
+network.host = 0.0.0.0
+http.port: 9200
+
+# 실제로는 클러스터에 참여할 다른 노드의 IP만을 기입해야 함.
+discovery.seed_hosts: ["0.0.0.0"]
+
+```
+
+
 
 <br>
 
