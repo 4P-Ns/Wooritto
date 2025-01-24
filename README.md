@@ -2,25 +2,34 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=ed9824&height=300&section=header&text=Wooritto&fontSize=70&fontColor=FFFFFF&animation=fadeIn&width=1200" width="1200" />
 
 
-## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> Ditto </div>
-
-
+## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> 우리도 쓸 때는 쓴다 </div>
 
 <br>
 
 ## 📍 Contents
-- [1️⃣ Overview](#1%EF%B8%8F⃣-overview)
-- [2️⃣ Contributors](#2%EF%B8%8F⃣-contributors)
-- [3️⃣ Environment Settings](#3%EF%B8%8F⃣-environment-settings)
-- [4️⃣ Trouble Shooting](#5%EF%B8%8F⃣-trouble-shooting)
-- [5️⃣ Retrospective](#6%EF%B8%8F⃣-retrospective)
+- [1️⃣ Contributors](#1%EF%B8%8F⃣-overview)
+- [2️⃣ Overview](#2%EF%B8%8F⃣-contributors)
+- [3️⃣ Insights](#3%EF%B8%8F⃣-insights)
+- [4️⃣ Environment Settings](#4%EF%B8%8F⃣-environment-settings)
+- [5️⃣ Trouble Shooting](#5%EF%B8%8F%E2%83%A3-trouble-shooting)
+- [6️⃣ Retrospective](#6%EF%B8%8F%E2%83%A3-retrospective)
 
+<br>
+<br>
+
+## 1️⃣ Contributors
+<br>
+
+|<img src="https://avatars.githubusercontent.com/u/80048007?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/60309978?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/193213283?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/115103394?v=4" width="220" height="200"/>|
+|:-:|:-:|:-:|:-:|
+|박영진<br/>[@DoomchitYJ](https://github.com/DoomchitYJ)|박정호<br/>[@Jeongho427](https://github.com/Jeongho427)|박진현<br/>[@jinhyunpark929](https://github.com/jinhyunpark929)|이현정<br/>[@nanahj](https://github.com/nanahj)|
 
 <br>
 
-<br>
+## 2️⃣ Overview
 
-## 1️⃣ Overview
+<br> 
+
 이 프로젝트는 ?
 
 ### 💡 Background
@@ -34,18 +43,63 @@
 출처 : Ditto 소비의 핵심 - 추종을 통한 제품 구매(https://magazine.cheil.com/55182)
 >
 
+<br>
+
+## 3️⃣ Insights
 
 <br>
 
-## 2️⃣ Contributors
+### ✏️ 가설1. VVIP/VIP 회원의 비율이 전체의 약 10%를 차지할 것이다.
+<img src="https://github.com/user-attachments/assets/c6c01e6a-09fc-4633-a5b1-86f402a11abf" width="400">
 
-|<img src="https://avatars.githubusercontent.com/u/80048007?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/60309978?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/193213283?v=4" width="220" height="200"/>|<img src="https://avatars.githubusercontent.com/u/115103394?v=4" width="220" height="200"/>|
-|:-:|:-:|:-:|:-:|
-|박영진<br/>[@DoomchitYJ](https://github.com/DoomchitYJ)|박정호<br/>[@Jeongho427](https://github.com/Jeongho427)|박진현<br/>[@jinhyunpark929](https://github.com/jinhyunpark929)|이현정<br/>[@nanahj](https://github.com/nanahj)|
+> VVIP는 표본 전체의 1.31%, VIP는 5.13%로 약 6.44%를 차지하였다.
 
 <br>
 
-## 3️⃣ Environment Settings
+### ✏️ 가설2. VVIP/VIP 회원이 사용한 총 금액이 전체의 50%를 차지할 것이다.
+<img src="https://github.com/user-attachments/assets/a2f2db66-6ce4-4551-ba2c-16c209e4e14b" width="400">
+
+> VVIP는 3.95%, VIP는 12.41%로 전체의 약 16%를 차지하였다.
+> 가설에 비해 VVIP/VIP가 차지하는 금액이 크지 않았다. 
+
+<br>
+
+### ✏️ 가설3. VVIP/VIP 회원은 ‘외식’에 소비를 많이 할 것이다.
+<img src="https://github.com/user-attachments/assets/c878ff24-9b89-4c09-aa4a-ea6fe6553eac" width="700">
+
+> 소비금액이 다른 등급 회원들과 유의미하게 차이가 나지 않았다.
+
+<br>
+
+### ✏️ 가설4. VVIP/VIP 회원은 레저/취미생활에 소비를 많이 할 것이다.
+<img src="https://github.com/user-attachments/assets/1f7b15f5-418b-4525-b099-a7bc2954ad87" alt="문화" width="600">
+
+<img src="https://github.com/user-attachments/assets/edaeedd7-7fdb-4a81-895f-b7e098c8ee2f" alt="레저" width="600">
+
+> VVIP/VIP회원이 문화생활/레저업소에 소비한 평균 금액이 타 회원에 비해 약 3배 높았다.
+
+<br>
+
+### 📝 추가사항
+
+<img src="https://github.com/user-attachments/assets/70c056fe-ae13-4da7-8cdc-62f1081b389f" alt="결제분야" width="600">
+
+> 주요 소비 분야 몇 가지를 뽑아보았다. 팀원끼리 직관적으로 가설을 세웠던 분야를 제외하고, 서적/문구에서 멤버 등급별 유의미한 차이를 보였다.
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/61de8aa8-69df-49f9-9e6e-6cd983ea15b5" alt="도서" width="600">
+
+> 서적/문구에서 VVIP와 ‘해당없음’ 등급 고객들의 차이는 약 9.71배 차이가 났다.
+
+<br>
+
+### 📚 결론
+
+가장 크게 차이나는 것은 레저/문화생활/도서
+
+
+## 4️⃣ Environment Settings
 
 ### 🛠 Skills
 
@@ -81,7 +135,7 @@
 <br>
 
 
-## 4️⃣ Trouble Shooting
+## 5️⃣ Trouble Shooting
 
 ### Window에서 ElasticSearch 접속이 안되는 문제
 - 설치 후, ubuntu에서는 curl -X GET 명령어를 통해 잘 되는 것을 확인 했지만 Window에서는 접속이 되지 않는 문제 발생
@@ -153,7 +207,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 
 <img src="https://github.com/user-attachments/assets/27d4facf-50ba-4a9b-aff9-8415ea5591ab" alt="image" width="600">
 
-## 5️⃣ Retrospective
+## 6️⃣ Retrospective
 
 
 
