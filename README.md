@@ -53,9 +53,7 @@
 **Tech Stack**
 
 <div>
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
 <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
-<img src="https://img.shields.io/badge/dbeaver-846d5e?style=for-the-badge&logo=dbeaver&logoColor=white"> 
 <img src="https://img.shields.io/badge/elasticsearch-3db9ac?style=for-the-badge&logo=elasticsearch&logoColor=white"> 
 <img src="https://img.shields.io/badge/kibana-f04e98?style=for-the-badge&logo=kibana&logoColor=white">   
 </div>
@@ -73,6 +71,8 @@
 <br>
 
 ### 🖥️ Architecture
+
+![image](https://github.com/user-attachments/assets/d76d01f2-45c8-4cb0-b4e0-04f875ac5b91)
 
 <br>
 
