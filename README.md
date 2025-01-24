@@ -253,7 +253,75 @@ discovery.seed_hosts: ["0.0.0.0"]
 
 ```
 
+<img src="https://github.com/user-attachments/assets/7826b525-4f43-47b5-b2cb-d291aed6f427" width="60%">
 
+- ES 재실행
+
+```bash
+# ES 재실행
+sudo systemctl restart elasticsearch
+```
+
+- 포트 개방 후 window에서 접속 시도
+
+<img src="https://github.com/user-attachments/assets/d61177da-39d6-4572-a513-49b5ddadb33f" width="60%">
+
+<img src="https://github.com/user-attachments/assets/b5f419f6-e1b8-4a45-b9ae-ccaa5b986417" width="60%">
+
+### Ubuntu에 Kibana 설치
+
+- 서버 세팅 작업은 위와 동일
+- 세팅 후 mobaxterm으로 접속
+
+```bash
+# kibana 설치
+sudo apt update
+sudo apt install kibana
+
+# 시작
+sudo systemctl start kibana
+
+# 상태 확인
+sudo systemctl status kibana
+
+## 자동실행 설정(선택사항)
+$ sudo systemctl enable kibana
+```
+
+- ES와 연동을 위한 kibana.yml 수정
+
+```bash
+$ sudo vi /etc/kibana/kibana.yml
+
+# kibana.yml 주석 해제
+server.port: 5601
+
+# server.host: localhost 에서 변경
+server.host: 0.0.0.0
+
+# elasticsearch와 연결
+elasticsearch.hosts: ["http://localhost:9200"]
+```
+
+- 현재 다른 서버에 설치된 ES와 연동을 해야 하기 때문에 위의 elasticsearch.hosts의 ip를 elasticsearch가 있는 서버 ip로 해줘야 함
+
+<img src="https://github.com/user-attachments/assets/87ea59f9-9522-4f2f-92e6-12fc89b79b4a" width="60%">
+
+<img src="https://github.com/user-attachments/assets/d1fd3aa3-f033-4bd2-9996-491e3b4afc6c">
+
+- kibana 접속 확인
+
+```bash
+# 재시작
+sudo systemctl restart kibana
+
+# 상태 확인
+sudo systemctl status kibana
+```
+
+- window에서 kibana 접속
+
+<img src="https://github.com/user-attachments/assets/5c470607-88a7-4fef-b00e-ab588177d5b2" width="60%">
 
 <br>
 
