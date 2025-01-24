@@ -90,6 +90,75 @@
 
 ## 5️⃣ Trouble Shooting
 
+### Window에서 ElasticSearch 접속이 안되는 문제
+- 설치 후, ubuntu에서는 curl -X GET 명령어를 통해 잘 되는 것을 확인 했지만 Window에서는 접속이 되지 않는 문제 발생
+
+**해결방안**
+- elasticsearch.yml에서 포트와 host ip를 설정
+
+```bash
+
+# elasticsearch.yml 파일 vim으로 열기
+sudo vi /etc/elasticsearch/elasticsearch.yml
+
+# yml 파일 수정
+network.host = 0.0.0.0
+http.port: 9200
+
+# 실제로는 클러스터에 참여할 다른 노드의 IP만을 기입해야 함.
+discovery.seed_hosts: ["0.0.0.0"]
+  
+```
+
+<img src="https://github.com/user-attachments/assets/8b629d71-4f8f-45b1-bba1-630402431f45" alt="image" width="600">
+
+### kibana와 ElasticSearch가 연동이 안되는 문제
+- kibana가 active 상태이지만 ES와 연동이 되지 않아 페이지가 로드되지 않는 문제 발생
+
+**해결방안**
+- kibana.yml에서 server의 host와 port 설정 및 elasticsearch와 연결
+
+```bash
+
+# kibana.yml 파일 vim으로 열기
+$ sudo vi /etc/kibana/kibana.yml
+
+# kibana.yml 주석 해제
+server.port: 5601
+
+# server.host: localhost 에서 변경
+server.host: 0.0.0.0
+
+# elasticsearch와 연결
+elasticsearch.hosts: ["http://localhost:9200"]
+
+```
+
+<img src="https://github.com/user-attachments/assets/9aa2d4f8-8a50-4f07-a621-a018a471a77a" alt="image" width="600"> <img src="https://github.com/user-attachments/assets/ddb88ca5-54e0-46ed-b4ca-ad4e7b143bec" alt="image" width="600">
+
+
+### ElasticSearch와 kibana 연동을 위한 네트워크 설정
+- ES와 kibana 모두 설정을 맞췄지만 연동이 안되는 문제 발생
+
+**원인**  
+
+- VirtualBox에서 ES와 Kibana가 각각 다른 가상 머신에 설치되어 있는 상황
+
+- NAT 네트워크의 기본 설정에서는 외부에서 VM으로의 직접 접근이 차단되기 때문에, Elasticsearch와 Kibana가 서로 연결되지 않음
+
+**해결방안**
+
+**1. NAT 네트워크 사용 및 포트 포워딩 설정**
+
+- VirtualBox의 NAT 네트워크를 활용하여 두 VM을 묶어 같은 네트워크 내에서 통신할 수 있도록 설정
+- 외부와의 연결이 필요하기 때문에, 포트 포워딩을 설정하여 Elasticsearch와 Kibana의 서비스 포트를 각각 호스트에 노출
+
+**2. Kibana 설정 변경**
+
+- kibana.yml 파일에서 Elasticsearch의 주소를 가리키는 elasticsearch.hosts을 포트 포워딩에 맞게 수정
+- localhost -> elasticearch가 설치된 가성머신의 ip 주소
+
+<img src="https://github.com/user-attachments/assets/27d4facf-50ba-4a9b-aff9-8415ea5591ab" alt="image" width="600">
 
 ## 6️⃣ Retrospective
 
