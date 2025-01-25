@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=ed9824&height=300&section=header&text=Wooritto&fontSize=70&fontColor=FFFFFF&animation=fadeIn&width=1200" width="1200" />
 
 
-## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> 💳 우리도 쓸 때는 쓴다 </div>
+## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;">💳 우리도 쓸 때는 쓴다 😎</div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/911b4b16-f2cc-423a-995a-00493e2206be" width="60%">
@@ -36,11 +36,11 @@
 
 <br> 
 
-이 프로젝트는 실제 카드 데이터를 기반으로 VVIP/VIP의 카드 사용 내역을 분석하여 하위 등급 회원들의 카드 사용을 촉진시키기 위한 전략 수립 및 데이터 분석 프로젝트이다.
+이 프로젝트는 **실제 카드 데이터**를 기반으로 VVIP/VIP의 카드 사용 내역을 분석하여 하위 등급 회원들의 **카드 사용을 촉진**시키기 위한 전략 수립 및 데이터 분석 프로젝트이다.
 
-최근 소비 트렌드로 주목받은 **Ditto 소비**를 모티브로 VVIP/VIP의 소비 분야에 맞추어 해당 분야에 특별 혜택을 제공한다.
+최근 소비 트렌드로 주목받은 **Ditto 소비**를 모티브로, VVIP/VIP의 선호 소비 분야에 맞추어 해당 분야에 특별 혜택을 제공한다.
 
-본 프로젝트는 Elasticsearch와 Kibana를 활용하여 대규모 카드 데이터를 분석하고, 시각화 및 인사이트 도출에 중점을 두었다.
+본 프로젝트는 **Elasticsearch**와 **Kibana**를 활용하여 **대규모 카드 데이터를 분석하고, 시각화 및 인사이트 도출**에 중점을 두었다.
 
 <br>
 
@@ -114,7 +114,6 @@
 
 ### 📚 결론
 
-
 <p align="center">
   <img width="100%" src="https://github.com/user-attachments/assets/7c2f64ef-a372-447b-8ea9-16a38d0a1c30" alt="CARD_BANNER">
 </p>
@@ -122,58 +121,53 @@
 <br>
 
 #### 우리도 쓸 때는 쓴다, 'WOORITTO'
-이 카드는 고객의 라이프스타일 전반을 프리미엄화하는 것을 목표로 설계되었습니다. 
 
-독서와 문화 활동을 중심으로 지적 성장을 도모하며, 다양한 마일리지 적립과 할인 혜택을 통해 자기계발의 동기를 부여합니다.
+이 카드는 고객의 라이프스타일 전반을 **프리미엄화**하는 것을 목표로 설계되었습니다. 
 
-테마파크, 스포츠 시설, 공연장 등의 여가 시설 이용 혜택으로 균형 잡힌 라이프스타일을 지원하고, 온/오프라인 쇼핑 전반에 걸친 혜택으로 스마트한 소비 생활을 장려합니다.
+**독서**와 **문화 활동**을 중심으로 **지적 성장**을 도모하며, 다양한 **마일리지 적립과 할인 혜택**을 통해 **자기계발의 동기**를 부여합니다.
+
+테마파크, 스포츠 시설, 공연장 등의 **여가 시설 이용 혜택**으로 균형 잡힌 라이프스타일을 지원하고, 온/오프라인 쇼핑 전반에 걸친 혜택으로 **스마트한 소비 생활을 장려**합니다.
 
 특히 실적 달성 회원을 위한 프리미엄 서비스를 통해 고객의 지속적인 성장과 특별한 경험을 제공합니다.
 
-<details> <summary><strong>카드 기본 서비스 - 프리미엄 라이프스타일로의 첫걸음</strong></summary>  
+<br>
 
+### 💳 카드 기본 서비스 - 프리미엄 라이프스타일로의 첫걸음
 
-**Book & Culture - 독서와 문화생활의 시작**  
-- 전국 오프라인 서점/문구점 이용금액 1% 마일리지 적립 서비스 - 오프라인 독서 문화 체험
-- 온라인 서점/문구점 결제금액 0.5% 마일리지 적립 - 디지털 시대의 독서 습관
-- 월간 도서 구매금액 30만원 이상 시 추가 5,000 마일리지 적립 - 독서량에 따른 보상
-- [신규] 전자책 구독 서비스 20% 할인 + 구독료의 3% 마일리지 적립 - 디지털 전환 촉진
-- 적립된 마일리지로 도서 구매 시 추가 5% 할인 - 독서 순환 생태계 조성
+**📚 Book & Culture - 독서와 문화생활의 시작**  
+- 전국 오프라인 서점/문구점 이용금액 1% 마일리지 적립 서비스 - **[오프라인 독서 문화 체험]**
+- 온라인 서점/문구점 결제금액 0.5% 마일리지 적립 - **[디지털 시대의 독서 습관]**
+- 월간 도서 구매금액 30만원 이상 시 추가 5,000 마일리지 적립 - **[독서량에 따른 보상]**
+- [신규] 전자책 구독 서비스 20% 할인 + 구독료의 3% 마일리지 적립 - **[디지털 전환 촉진]**
+- 적립된 마일리지로 도서 구매 시 추가 5% 할인 - **[독서 순환 생태계 조성]**
   
-**Leisure & Entertainment - 여가생활의 품격 상승**
-- 제휴 테마파크 연간이용권 구매 시 무료이용권 2매 제공 - 프리미엄 레저 문화 체험
-- 스포츠 시설 이용금액 5% 청구할인
-- 골프장, 스키장, 스케이트장, 볼링장, 수영장 - 고급 스포츠 입문 지원
-- [신규] 제휴 공연장 예매 시 10% 할인 - 문화생활 진입장벽 낮추기
-- 마일리지로 레저 시설 이용권 구매 시 20% 추가 할인 - 여가활동 순환 촉진  
+**🎡 Leisure & Entertainment - 여가생활의 품격 상승**
+- 제휴 테마파크 연간이용권 구매 시 무료이용권 2매 제공 - **[프리미엄 레저 문화 체험]**
+- 스포츠 시설 이용금액 5% 청구할인 (골프장, 스키장, 스케이트장, 볼링장, 수영장) - **[고급 스포츠 입문 지원]**
+- [신규] 제휴 공연장 예매 시 10% 할인 - **[문화생활 진입장벽 낮추기]**
+- 마일리지로 레저 시설 이용권 구매 시 20% 추가 할인 - **[여가활동 순환 촉진]**
 
-**Shopping & Commerce - 스마트한 소비생활 설계**
-- 국내 오프라인 가맹점 1% 청구할인 - 기본적인 소비 혜택
-- 간편결제 시 2% 청구할인 + 1% 마일리지 적립 - 디지털 결제 전환 유도
-- [신규] 프리미엄 온라인몰 3% 추가 할인 - 고급 소비로의 진입
-- 마일리지 사용 시 온라인몰 5% 추가 할인 - 소비 순환 극대화
-
-</details>
+**🛍️ Shopping & Commerce - 스마트한 소비생활 설계**
+- 국내 오프라인 가맹점 1% 청구할인 - **[기본적인 소비 혜택]**
+- 간편결제 시 2% 청구할인 + 1% 마일리지 적립 - **[디지털 결제 전환 유도]**
+- [신규] 프리미엄 온라인몰 3% 추가 할인 - **[고급 소비로의 진입]**
+- 마일리지 사용 시 온라인몰 5% 추가 할인 - **[소비 순환 극대화]**
 
 <br>
 
-<details> <summary><strong>실적 달성 회원 전용 프리미엄 서비스 - 프리미엄 라이프스타일의 완성</strong></summary>  
+### 💳 실적 달성 회원 전용 프리미엄 서비스 - 프리미엄 라이프스타일의 완성
   
-**Book & Culture - 지적 성장의 특별한 경험**  
+**📚 Book & Culture - 지적 성장의 특별한 경험**  
 
-- 분기별 프리미엄 북콘서트 초청 (오프라인 도서 구매 실적 보유 고객 한정) - 문화적 소속감 제공
-- VIP/VVIP 고객 도서 큐레이션 서비스
-- 분기별 인기 도서 5종 20% 특별 할인 - 프리미엄 독서 경험
-- [신규] 프리미엄 독서모임 멤버십 무료 가입 + 참여 시 마일리지 2배 적립 - 독서 커뮤니티 형성  
+- 분기별 프리미엄 북콘서트 초청 (오프라인 도서 구매 실적 보유 고객 한정) - **[문화적 소속감 제공]**
+- VIP/VVIP 고객 도서 큐레이션 서비스 + 분기별 인기 도서 5종 20% 특별 할인 - **[프리미엄 독서 경험]**
+- [신규] 프리미엄 독서모임 멤버십 무료 가입 + 참여 시 마일리지 2배 적립 - **[독서 커뮤니티 형성]**
 
-**Leisure & Entertainment - 특별한 여가생활의 완성**  
-- 제휴 리조트 객실 무료 업그레이드 서비스 - 프리미엄 휴식 경험
-- 연 2회 마일리지 5배 적립 이벤트 참여 기회 - 혜택의 집중
-- [신규] 프라이빗 골프 레슨 50% 할인 + 레슨비 3% 마일리지 적립 - 고급 스포츠 생활화
+**🎡 Leisure & Entertainment - 특별한 여가생활의 완성**  
+- 제휴 리조트 객실 무료 업그레이드 서비스 - **[프리미엄 휴식 경험]**
+- 연 2회 마일리지 5배 적립 이벤트 참여 기회 - **[혜택의 집중]**
+- [신규] 프라이빗 골프 레슨 50% 할인 + 레슨비 3% 마일리지 적립 - **[고급 스포츠 생활화]**
   
-</details>
-
-<br>
 
 <br>
 
@@ -204,13 +198,15 @@
 
 ### 🖥️ Architecture
 
-![image](https://github.com/user-attachments/assets/d76d01f2-45c8-4cb0-b4e0-04f875ac5b91)
+<img src="https://github.com/user-attachments/assets/d76d01f2-45c8-4cb0-b4e0-04f875ac5b91" width="70%">
 
 <br>
 
 ### 🛠 Configuration
 
-## Virtual Machine에서 ELK를 설치할 각각의 서버 생성
+---
+
+### Virtual Machine에서 ELK를 설치할 각각의 서버 생성
 
 <details>
 <summary>각 서버에서 SSH 가능하게 설정</summary>
@@ -274,18 +270,21 @@ Port 22
 PermitRootLogin no
 
 ```
-  
+설정을 변경한 후 SSH 서비스 재시작
+
 </details>
 
 
-설정을 변경한 후 SSH 서비스 재시작
 
-### virtual box에서 서버들 같은 네트워크로 묶어주기
+
+### VirtualBox에서 서버들 같은 네트워크로 묶어주기
 
 <img src="https://github.com/user-attachments/assets/011013d3-bb1a-40a5-b4e7-130a84da96f0" width="60%">
 
 
 - NAT 네트워크 설정
+
+<br>
 
 <img src="https://github.com/user-attachments/assets/16f35fbb-c193-4a16-95a9-bd4e533be27e" width="60%">
 
@@ -293,9 +292,11 @@ PermitRootLogin no
 
 - 서버 각각 포트포워딩 해주기
 
+<br>
+
 <img src="https://github.com/user-attachments/assets/5b623e03-6580-4b66-b7f3-c6c892846312" width="60%">
 
-
+<br>
 
 ### Ubuntu에 ElasticSearch 설치하기
 
@@ -318,7 +319,7 @@ sudo systemctl status elasticsearch
 $ sudo systemctl enable elasticsearch
 ```
 
-
+<br>
 
 - elasticsearch.yml 파일 수정하기
 
@@ -337,7 +338,9 @@ discovery.seed_hosts: ["0.0.0.0"]
 
 <img src="https://github.com/user-attachments/assets/7826b525-4f43-47b5-b2cb-d291aed6f427" width="60%">
 
+<br>
 
+<br>
 
 - ES 재실행
 
@@ -346,13 +349,15 @@ discovery.seed_hosts: ["0.0.0.0"]
 sudo systemctl restart elasticsearch
 ```
 
+<br>
+
 - 포트 개방 후 window에서 접속 시도
 
 <img src="https://github.com/user-attachments/assets/d61177da-39d6-4572-a513-49b5ddadb33f" width="60%">
 
 <img src="https://github.com/user-attachments/assets/b5f419f6-e1b8-4a45-b9ae-ccaa5b986417" width="60%">
 
-
+<br>
 
 ### Ubuntu에 Kibana 설치
 
@@ -374,6 +379,8 @@ sudo systemctl status kibana
 $ sudo systemctl enable kibana
 ```
 
+<br>
+
 - ES와 연동을 위한 kibana.yml 수정
 
 ```bash
@@ -389,7 +396,7 @@ server.host: 0.0.0.0
 elasticsearch.hosts: ["http://localhost:9200"]
 ```
 
-
+<br>
 
 - 현재 다른 서버에 설치된 ES와 연동을 해야 하기 때문에 위의 elasticsearch.hosts의 ip를 elasticsearch가 있는 서버 ip로 해줘야 함
 
@@ -397,7 +404,9 @@ elasticsearch.hosts: ["http://localhost:9200"]
 
 <img src="https://github.com/user-attachments/assets/d1fd3aa3-f033-4bd2-9996-491e3b4afc6c">
 
+<br>
 
+<br>
 
 - kibana 접속 확인
 
@@ -409,6 +418,8 @@ sudo systemctl restart kibana
 sudo systemctl status kibana
 ```
 
+<br>
+
 - window에서 kibana 접속
 
 <img src="https://github.com/user-attachments/assets/5c470607-88a7-4fef-b00e-ab588177d5b2" width="60%">
@@ -419,10 +430,12 @@ sudo systemctl status kibana
 
 ## 5️⃣ Trouble Shooting
 
-### Window에서 ElasticSearch 접속이 안되는 문제
+### ⚔️ Window에서 ElasticSearch 접속이 안되는 문제
 - 설치 후, ubuntu에서는 curl -X GET 명령어를 통해 잘 되는 것을 확인 했지만 Window에서는 접속이 되지 않는 문제 발생
 
-**해결방안**
+<br>
+
+**👌 해결방안**
 - elasticsearch.yml에서 포트와 host ip를 설정
 
 ```bash
@@ -441,10 +454,14 @@ discovery.seed_hosts: ["0.0.0.0"]
 
 <img src="https://github.com/user-attachments/assets/8b629d71-4f8f-45b1-bba1-630402431f45" alt="image" width="600">
 
-### kibana와 ElasticSearch가 연동이 안되는 문제
+<br>
+
+### ⚔️ kibana와 ElasticSearch가 연동이 안되는 문제
 - kibana가 active 상태이지만 ES와 연동이 되지 않아 페이지가 로드되지 않는 문제 발생
 
-**해결방안**
+<br>
+
+**👌 해결방안**
 - kibana.yml에서 server의 host와 port 설정 및 elasticsearch와 연결
 
 ```bash
@@ -466,16 +483,20 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <img src="https://github.com/user-attachments/assets/9aa2d4f8-8a50-4f07-a621-a018a471a77a" alt="image" width="600"> <img src="https://github.com/user-attachments/assets/ddb88ca5-54e0-46ed-b4ca-ad4e7b143bec" alt="image" width="600">
 
 
-### ElasticSearch와 kibana 연동을 위한 네트워크 설정
+### ⚔️ ElasticSearch와 kibana 연동을 위한 네트워크 설정
 - ES와 kibana 모두 설정을 맞췄지만 연동이 안되는 문제 발생
 
-**원인**  
+<br>
+
+**😭 원인**  
 
 - VirtualBox에서 ES와 Kibana가 각각 다른 가상 머신에 설치되어 있는 상황
 
 - NAT 네트워크의 기본 설정에서는 외부에서 VM으로의 직접 접근이 차단되기 때문에, Elasticsearch와 Kibana가 서로 연결되지 않음
 
-**해결방안**
+<br>
+
+**👌 해결방안**
 
 **1. NAT 네트워크 사용 및 포트 포워딩 설정**
 
