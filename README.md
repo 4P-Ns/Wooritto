@@ -2,17 +2,23 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=ed9824&height=300&section=header&text=Wooritto&fontSize=70&fontColor=FFFFFF&animation=fadeIn&width=1200" width="1200" />
 
 
-## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> 우리도 쓸 때는 쓴다 </div>
+## <div align="center" style="font-size: 70px; color: #000080; animation: glow 1.5s infinite;"> 💳 우리도 쓸 때는 쓴다 </div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/911b4b16-f2cc-423a-995a-00493e2206be" width="60%">
+</div>
+
 
 <br>
 
 ## 📍 Contents
 - [1️⃣ Contributors](#1%EF%B8%8F⃣-overview)
 - [2️⃣ Overview](#2%EF%B8%8F⃣-contributors)
-- [3️⃣ Insights](#3%EF%B8%8F⃣-insights)
-- [4️⃣ Environment Settings](#4%EF%B8%8F⃣-environment-settings)
-- [5️⃣ Trouble Shooting](#5%EF%B8%8F%E2%83%A3-trouble-shooting)
-- [6️⃣ Retrospective](#6%EF%B8%8F%E2%83%A3-retrospective)
+- [3️⃣ Insight](#3%EF%B8%8F⃣-insight)
+- [4️⃣ New Strategy](#4%EF%B8%8F⃣-new-strategy)
+- [5️⃣ Environment Settings](#5%EF%B8%8F⃣-environment-settings)
+- [6️⃣ Trouble Shooting](#6%EF%B8%8F%E2%83%A3-trouble-shooting)
+- [7️⃣ Retrospective](#7%EF%B8%8F%E2%83%A3-retrospective)
 
 <br>
 <br>
@@ -32,10 +38,11 @@
 
 이 프로젝트는 실제 카드 데이터를 기반으로 VVIP/VIP의 카드 사용 내역을 분석하여 하위 등급 회원들의 카드 사용을 촉진시키기 위한 전략 수립 및 데이터 분석 프로젝트이다.
 
-최근 소비 트렌드로 주목받은 'Ditto 소비'를 모티브로 VVIP/VIP의 소비 분야에 맞추어 해당 분야에 특별 혜택을 제공한다.
+최근 소비 트렌드로 주목받은 **Ditto 소비**를 모티브로 VVIP/VIP의 소비 분야에 맞추어 해당 분야에 특별 혜택을 제공한다.
 
 본 프로젝트는 Elasticsearch와 Kibana를 활용하여 대규모 카드 데이터를 분석하고, 시각화 및 인사이트 도출에 중점을 두었다.
 
+<br>
 
 ### 💡 Background<br>
 
@@ -103,6 +110,8 @@
 
 <br>
 
+## 4️⃣ New Strategy
+
 ### 📚 결론
 
 
@@ -113,8 +122,12 @@
 <br>
 
 #### 우리도 쓸 때는 쓴다, 'WOORITTO'
-이 카드는 고객의 라이프스타일 전반을 프리미엄화하는 것을 목표로 설계되었습니다. 독서와 문화 활동을 중심으로 지적 성장을 도모하며, 다양한 마일리지 적립과 할인 혜택을 통해 자기계발의 동기를 부여합니다.
+이 카드는 고객의 라이프스타일 전반을 프리미엄화하는 것을 목표로 설계되었습니다. 
+
+독서와 문화 활동을 중심으로 지적 성장을 도모하며, 다양한 마일리지 적립과 할인 혜택을 통해 자기계발의 동기를 부여합니다.
+
 테마파크, 스포츠 시설, 공연장 등의 여가 시설 이용 혜택으로 균형 잡힌 라이프스타일을 지원하고, 온/오프라인 쇼핑 전반에 걸친 혜택으로 스마트한 소비 생활을 장려합니다.
+
 특히 실적 달성 회원을 위한 프리미엄 서비스를 통해 고객의 지속적인 성장과 특별한 경험을 제공합니다.
 
 <details> <summary><strong>카드 기본 서비스 - 프리미엄 라이프스타일로의 첫걸음</strong></summary>  
