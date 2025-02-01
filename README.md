@@ -115,8 +115,9 @@
 ### 📚 결론
 
 <p align="center">
-  <img width="100%" src="https://github.com/user-attachments/assets/7c2f64ef-a372-447b-8ea9-16a38d0a1c30" alt="CARD_BANNER">
+  <img width="100%" src="https://github.com/user-attachments/assets/d8b817ef-2558-4c96-ad83-81c102c64b71" alt="CARD_BANNER_FINAL">
 </p>
+
 
 <br>
 
